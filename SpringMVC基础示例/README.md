@@ -2,7 +2,7 @@
 
 ​	新建module时选择maven项目即可，成功后右键项目选择"Add Framework Support..."可添加web支持;
 
-​	新建selvlet后需要在pom.xml中注册;
+​	新建selvlet后需要在pom.xml中注册,同时要在web.xml中设置映射的类和路径;
 
 ​	依赖需要在pom.xml中导入;
 
