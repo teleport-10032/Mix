@@ -3,6 +3,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+//若是@RestController则不会经过试图解析器，直接返回String
 @Controller
 @RequestMapping("/hello")
 public class HelloController {
