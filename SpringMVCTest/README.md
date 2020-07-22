@@ -8,4 +8,4 @@
 
 ​	依赖需要在pom.xml中导入;
 
-​	
+​	在Run Configurations的Deployment中可设置访问路径;

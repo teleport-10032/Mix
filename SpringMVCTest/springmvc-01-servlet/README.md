@@ -4,3 +4,5 @@
 
 ​	依赖需要在pom.xml中导入;
 
+​	使用****/user?method=add/delete查看结果;
+
