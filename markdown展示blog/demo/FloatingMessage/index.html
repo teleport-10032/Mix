@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>FloatingMessage</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style/css/bs4.pop.css">
+</head>
+
+<body>
+
+
+<div class="container" style="padding:50px 0">
+    <div class="group">
+
+        <!--        Dialog按钮-->
+        <button class="btn btn-primary" onclick="demo_dialog()">Dialog</button>
+        <!--        Dialog按钮-->
+
+        <!--        Alert按钮-->
+        <button class="btn btn-primary" onclick="bs4pop.alert('对话框内容', function(){ console.log('用户单击了确定') })">
+            Alert
+        </button>
+        <!--        Alert按钮-->
+
+        <!--        confirm按钮-->
+        <button class="btn btn-primary" onclick="bs4pop.confirm('确定要退出吗？', function(sure){ console.log('', sure);})">
+            Confirm
+        </button>
+        <!--        confirm按钮-->
+
+        <!--        prompt按钮-->
+        <button class="btn btn-primary"
+                onclick="bs4pop.prompt('请输入...', '在此处捕获用户的输入', function(sure, value){ console.log('用户输入的数值为', value);})">
+            Prompt
+        </button>
+        <!--        prompt按钮-->
+
+        <hr>
+
+        <p>
+            <!--    左上浮动信息-->
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {position: 'topleft'})">
+                Notice topleft
+            </button>
+            <!--    左上浮动信息-->
+
+            <!--    中上浮动信息-->
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {position: 'topcenter'})">
+                Notice topcenter
+            </button>
+            <!--    中上浮动信息-->
+
+            <!--    右上浮动信息-->
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {position: 'topright'})">
+                Notice topright
+            </button>
+            <!--    右上浮动信息-->
+        </p>
+
+
+        <p>
+            <!--     中央浮动信息-->
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {position: 'center'})">
+                Notice center
+            </button>
+            <!--     中央浮动信息-->
+        </p>
+
+        <p>
+            <!--     左下浮动信息-->
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {position: 'bottomleft'})">
+                Notice bottomleft
+            </button>
+            <!--     左下浮动信息-->
+
+            <!--     中下浮动信息-->
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {position: 'bottomcenter'})">
+                Notice bottomcenter
+            </button>
+            <!--     中下浮动信息-->
+
+            <!--     右下浮动信息-->
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {position: 'bottomright'})">
+                Notice bottomright
+            </button>
+            <!--     右下浮动信息-->
+        </p>
+
+        <hr>
+
+        <p>
+
+            <!--     各色中上浮动信息-->
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {type: 'primary'})">
+                Notice primary
+            </button>
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {type: 'secondary'})">
+                Notice secondary
+            </button>
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {type: 'success'})">
+                Notice success
+            </button>
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {type: 'danger'})">
+                Notice danger
+                </button>
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {type: 'warning'})">
+                Notice warning
+            </button>
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {type: 'info'})">
+                Notice info
+            </button>
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {type: 'light'})">
+                Notice light
+            </button>
+            <button class="btn btn-primary" onclick="bs4pop.notice('这个是消息内容', {type: 'dark'})">
+                Notice dark
+            </button>
+            <!--     各色中上浮动信息-->
+
+        </p>
+
+    </div>
+</div>
+
+
+<script src="style/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+<script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+<script src="style/js/bs4.pop.js"></script>
+
+
+<script>
+    function demo_dialog()
+    {
+        let dia = bs4pop.dialog({
+            title: '能拖拽的对话框',
+            content: '对话框内容',
+            closeBtn: true,
+            backdrop: 'static',
+            btns: [
+                {
+                    label: '确定', className: 'btn-primary', onClick(cb) {
+                    }
+                },
+                {
+                    label: '取消', className: 'btn-default', onClick(cb) {
+                    }
+                }
+            ],
+            onShowStart: function () {
+                console.log('onShowStart');
+            },
+            onShowEnd: function () {
+                console.log('onShowEnd');
+            },
+            onHideStart: function () {
+                console.log('onHideStart');
+            },
+            onHideEnd: function () {
+                console.log('onHideEnd');
+            },
+            onDragStart: function () {
+                console.log('onDragStart');
+            },
+            onDragEnd: function () {
+                console.log('onDragEnd');
+            },
+            onDrag: function () {
+                console.log('onDrag');
+            }
+
+        });
+
+        setTimeout(() =>
+        {
+            // dia.hide()
+        }, 2000);
+
+    }
+    function demo_alert() {
+    }
+
+    setTimeout(() => {
+        $('#alert').alert();
+
+        setTimeout(() => {
+            $('#alert').alert('close');
+        }, 2000);
+    }, 2000);
+
+</script>
+
+</body>
+
+</html>
