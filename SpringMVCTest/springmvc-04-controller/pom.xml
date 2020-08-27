@@ -11,6 +11,13 @@
 
     <artifactId>springmvc-04-controller</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+        </dependency>
+    </dependencies>
 <!--    <properties>-->
 <!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
 <!--        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>-->
