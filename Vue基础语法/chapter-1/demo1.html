@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="assets/js/vue.min.js"></script>
+</head>
+<body>
+
+<!--vue数据展示-->
+<div id="app1">
+    {{message}}
+</div>
+
+
+<!--vue分支语句-->
+<div id="app2">
+    <h1 v-if="type=='A'">A</h1>
+    <h1 v-else-if="type=='B'">B</h1>
+    <h1 v-else-if="type=='C'">C</h1>
+    <h1 v-else>D</h1>
+</div>
+
+<!--vue循环语句-->
+<div id="app3">
+    <li v-for="item in items">
+        {{item.message}}
+    </li>
+</div>
+
+<!--vue用户交互-->
+<div id="app-5">
+    <p>{{ message }}</p>
+    <button v-on:click="reverseMessage">反转消息</button>
+</div>
+
+<!--表单和应用状态双向绑定-->
+<div id="app-6">
+    <p>{{ message }}</p>
+    <input v-model="message">
+</div>
+
+<script>
+    //el：指定元素id
+    //data: 键值对数据
+    //可通过浏览器Console中使用vm1.message="hello"改变message的值
+    var vm1 = new Vue({
+        el: "#app1",
+        data:
+            {
+                message: "hello,vue",
+            }
+    });
+    var vm2 = new Vue({
+        el: "#app2",
+        data:
+            {
+                type: 'A'
+            }
+    });
+    var vm3 = new Vue(
+        {
+            el: "#app3",
+            data:
+                {
+                    items: [
+                        {message: "元素1"},
+                        {message: "元素2"},
+                        {message: "元素3"}
+                    ]
+                }
+        }
+    );
+    var app5 = new Vue({
+        el: '#app-5',
+        data: {
+            message: 'Hello Vue.js!'
+        },
+        methods: {
+            reverseMessage: function () {
+                this.message = this.message.split('').reverse().join('')
+            }
+        }
+    })
+    var app6 = new Vue({
+        el: '#app-6',
+        data: {
+            message: 'Hello Vue!'
+        }
+    })
+
+
+</script>
+
+</body>
+</html>
