@@ -42,7 +42,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="100dp">
+            android:layout_height="80dp">
 
             <!--                -1-->
             <!--                图-->
@@ -51,21 +51,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="43dp">
                 <ImageView
+                    android:id="@+id/p211"
                     android:src="@drawable/p211"
                     android:layout_width="70dp"
                     android:layout_height="43dp">
                 </ImageView>
                 <ImageView
+                    android:id="@+id/p212"
                     android:src="@drawable/p212"
                     android:layout_width="70dp"
                     android:layout_height="43dp">
                 </ImageView>
                 <ImageView
+                    android:id="@+id/p213"
                     android:src="@drawable/p213"
                     android:layout_width="70dp"
                     android:layout_height="43dp">
                 </ImageView>
                 <ImageView
+                    android:id="@+id/p214"
                     android:src="@drawable/p214"
                     android:layout_width="70dp"
                     android:layout_height="43dp">
@@ -132,21 +136,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
                 <ImageView
+                    android:id="@+id/p221"
                     android:src="@drawable/p221"
                     android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:id="@+id/p222"
                     android:src="@drawable/p222"
                     android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:id="@+id/p223"
                     android:src="@drawable/p223"
                     android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:id="@+id/p224"
                     android:src="@drawable/p224"
                     android:layout_width="100dp"
                     android:layout_height="50dp">
@@ -198,21 +206,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
                 <ImageView
+                    android:id="@+id/p231"
                     android:src="@drawable/p231"
                     android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:id="@+id/p232"
                     android:src="@drawable/p232"
                     android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:id="@+id/p233"
                     android:src="@drawable/p233"
                     android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:id="@+id/p234"
                     android:src="@drawable/p234"
                     android:layout_width="100dp"
                     android:layout_height="50dp">
@@ -264,6 +276,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
                 <ImageView
+                    android:id="@+id/p241"
                     android:src="@drawable/p241"
                     android:layout_width="100dp"
                     android:layout_height="50dp">

@@ -22,7 +22,7 @@
             <TextView
                 android:paddingLeft="20dp"
                 android:paddingTop="23dp"
-                android:text="正在加载...s"
+                android:text=""
                 android:textSize="17dp"
                 android:textColor="#ffffff"
                 android:layout_width="match_parent"

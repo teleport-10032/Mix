@@ -5,6 +5,7 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/p51"
         android:layout_width="match_parent"
         android:layout_height="180dp"
         android:src="@drawable/p51">
@@ -12,6 +13,7 @@
 
 <!--    板块1-->
     <LinearLayout
+        android:id="@+id/l51"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:orientation="horizontal"
@@ -49,6 +51,7 @@
 
     <!--    板块2-->
     <LinearLayout
+        android:id="@+id/l52"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:orientation="horizontal"
@@ -85,6 +88,7 @@
 
     <!--    板块3-->
     <LinearLayout
+        android:id="@+id/l53"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:orientation="horizontal"
@@ -120,6 +124,7 @@
 
     <!--    板块4-->
     <LinearLayout
+        android:id="@+id/l54"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:orientation="horizontal"
@@ -161,6 +166,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/l55"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         >

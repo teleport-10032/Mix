@@ -1,12 +1,14 @@
 package com.example.dual;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewStub;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -39,6 +41,7 @@ public class MainActivity extends FragmentActivity {
     private TextView bottom_bar_text_5;
     private ImageView bottom_bar_image_5;
     private RelativeLayout bottom_bar_5_btn;
+    private Object Fragment_1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,8 +71,11 @@ public class MainActivity extends FragmentActivity {
         bottom_bar_3_btn=findViewById(R.id.bottom_bar_3_btn);
         bottom_bar_4_btn=findViewById(R.id.bottom_bar_4_btn);
         bottom_bar_5_btn=findViewById(R.id.bottom_bar_5_btn);
-//        main_title.setText("TEST");
+
+
+
     }
+
 
     private void setSelectStatus(int index) {
         switch (index){

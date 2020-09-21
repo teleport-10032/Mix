@@ -48,6 +48,7 @@
         </LinearLayout>
 <!--        扫码-->
         <ImageView
+            android:id="@+id/scan"
             android:paddingLeft="50dp"
             android:paddingTop="24dp"
             android:layout_width="100dp"
@@ -124,21 +125,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp">
                     <ImageView
+                        android:id="@+id/p111"
                         android:src="@drawable/p111"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p112"
                         android:src="@drawable/p112"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p113"
                         android:src="@drawable/p113"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p114"
                         android:src="@drawable/p114"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
@@ -150,6 +155,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="40dp">
                     <TextView
+                        android:id="@+id/t111"
                         android:textSize="12dp"
                         android:text="基本信息提报"
                         android:paddingLeft="10dp"
@@ -158,6 +164,7 @@
                         >
                     </TextView>
                     <TextView
+                        android:id="@+id/t112"
                         android:textSize="12dp"
                         android:text="每日健康上报"
                         android:paddingLeft="12dp"
@@ -166,6 +173,7 @@
                         >
                     </TextView>
                     <TextView
+                        android:id="@+id/t113"
                         android:textSize="12dp"
                         android:text="健康上报记录"
                         android:paddingLeft="12dp"
@@ -174,6 +182,7 @@
                         >
                     </TextView>
                     <TextView
+                        android:id="@+id/t114"
                         android:textSize="12dp"
                         android:text="新冠肺炎防控"
                         android:paddingLeft="12dp"
@@ -189,21 +198,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp">
                     <ImageView
+                        android:id="@+id/p121"
                         android:src="@drawable/p121"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p122"
                         android:src="@drawable/p122"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p123"
                         android:src="@drawable/p123"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p124"
                         android:src="@drawable/p124"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
@@ -215,6 +228,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="40dp">
                     <TextView
+                        android:id="@+id/t121"
                         android:textSize="12dp"
                         android:text="课程表"
                         android:paddingLeft="27dp"
@@ -223,6 +237,7 @@
                         >
                     </TextView>
                     <TextView
+                        android:id="@+id/t122"
                         android:textSize="12dp"
                         android:text="校历"
                         android:paddingLeft="37dp"
@@ -254,21 +269,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp">
                     <ImageView
+                        android:id="@+id/p131"
                         android:src="@drawable/p131"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p132"
                         android:src="@drawable/p132"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p133"
                         android:src="@drawable/p133"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p134"
                         android:src="@drawable/p134"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
@@ -320,21 +339,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp">
                     <ImageView
+                        android:id="@+id/p141"
                         android:src="@drawable/p141"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p142"
                         android:src="@drawable/p142"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p143"
                         android:src="@drawable/p143"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p144"
                         android:src="@drawable/p144"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
@@ -385,21 +408,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp">
                     <ImageView
+                        android:id="@+id/p151"
                         android:src="@drawable/p151"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p152"
                         android:src="@drawable/p152"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p153"
                         android:src="@drawable/p153"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p154"
                         android:src="@drawable/p154"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
@@ -450,11 +477,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp">
                     <ImageView
+                        android:id="@+id/p161"
                         android:src="@drawable/p161"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
                     </ImageView>
                     <ImageView
+                        android:id="@+id/p162"
                         android:src="@drawable/p162"
                         android:layout_width="100dp"
                         android:layout_height="50dp">
@@ -492,6 +521,7 @@
             </LinearLayout>
 <!--            信息发布-->
             <ImageView
+                android:id="@+id/p11"
                 android:layout_width="390dp"
                 android:layout_height="130dp"
                 android:src="@drawable/xinxifabu"
@@ -505,6 +535,7 @@
             </LinearLayout>
             <!--            信息发布-->
             <ImageView
+                android:id="@+id/p12"
                 android:layout_width="390dp"
                 android:layout_height="130dp"
                 android:src="@drawable/xinxifabu2"
@@ -518,6 +549,7 @@
             </LinearLayout>
             <!--            信息发布-->
             <ImageView
+                android:id="@+id/p13"
                 android:layout_width="390dp"
                 android:layout_height="130dp"
                 android:src="@drawable/xinwen"

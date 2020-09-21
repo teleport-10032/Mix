@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--    title-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="#EF8400"
+            >
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/back"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="x"
+                    android:textSize="30dp">
+                </TextView>
+            </LinearLayout>
+
+            <!--        应用-->
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:paddingTop="17dp"
+                    android:text="出入校证明"
+                    android:textSize="17dp"
+                    android:textColor="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="-100dp"
+                android:layout_width="600dp"
+                android:layout_height="700dp"
+                android:src="@drawable/card">
+            </ImageView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
