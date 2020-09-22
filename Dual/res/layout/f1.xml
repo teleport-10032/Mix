@@ -619,7 +619,7 @@
                 android:id="@+id/p11"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:background="@drawable/xinxifabu"
+                android:background="@drawable/p11"
                 >
             </ImageView>
             <!--            灰色条-->
@@ -633,7 +633,7 @@
                 android:id="@+id/p12"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:background="@drawable/xinxifabu2"
+                android:background="@drawable/p12"
                 >
             </ImageView>
             <!--            灰色条-->
@@ -647,7 +647,7 @@
                 android:id="@+id/p13"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:background="@drawable/xinwen"
+                android:background="@drawable/p13"
                 >
             </ImageView>
 

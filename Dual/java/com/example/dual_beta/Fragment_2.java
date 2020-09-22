@@ -1,8 +1,7 @@
-package com.example.dual;
+package com.example.dual_beta;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;

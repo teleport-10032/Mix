@@ -1,7 +1,9 @@
-package com.example.dual;
+package com.example.dual_beta;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -10,17 +12,30 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
 
-public class Fragment_3 extends Fragment {
+public class Fragment_1 extends Fragment {
+
+    ImageView scan;
+    TextView t111 , t112 , t113 , t114 , t121 , t122 , t123 , t124 , t131 , t132 , t133 , t134;
+    TextView t141 , t142 , t143 , t144 , t151 , t152 , t153 , t154 , t161 , t162;
+
+    ImageView p111,p112,p113,p114,p121,p122,p123,p124,p131,p132,p133,p134,p141,p142,p143,p144;
+    ImageView p151,p152,p153,p154,p161,p162;
+    ImageView p11,p12,p13,yijianshangwang;
+
+
+
     @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View fragment3 = inflater.inflate(R.layout.f3, null);
-        return fragment3;
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+    {
+
+        View view = inflater.inflate(R.layout.f1, null);
+
+
+        return view;
     }
-
-
-    ImageView p311,p312,p313,p314,p321,p322,p323,p324,p331,p332,p333,p334,p341,p342,p351,p352,p353,p354,p361,p362,p363,p364,p371,p372,p373,p374,p381,p382,p391,p392,p301,p302,p303,p304;
 
 
     @Override
@@ -28,8 +43,8 @@ public class Fragment_3 extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
 
-        p311 = getActivity().findViewById(R.id.p311 );
-        p311.setOnClickListener(new View.OnClickListener() {
+        scan = getActivity().findViewById(R.id.scan);
+        scan.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -38,8 +53,8 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p312 = getActivity().findViewById(R.id.p312 );
-        p312.setOnClickListener(new View.OnClickListener() {
+        p111 = getActivity().findViewById(R.id.p111);
+        p111.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -48,8 +63,8 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p313 = getActivity().findViewById(R.id.p313 );
-        p313.setOnClickListener(new View.OnClickListener() {
+        p112 = getActivity().findViewById(R.id.p112);
+        p112.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -58,8 +73,8 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p314 = getActivity().findViewById(R.id.p314 );
-        p314.setOnClickListener(new View.OnClickListener() {
+        p113 = getActivity().findViewById(R.id.p113);
+        p113.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -68,8 +83,8 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p321 = getActivity().findViewById(R.id.p321 );
-        p321.setOnClickListener(new View.OnClickListener() {
+        p114 = getActivity().findViewById(R.id.p114);
+        p114.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -78,8 +93,8 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p322 = getActivity().findViewById(R.id.p322 );
-        p322.setOnClickListener(new View.OnClickListener() {
+        p121 = getActivity().findViewById(R.id.p121);
+        p121.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -88,8 +103,8 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p323 = getActivity().findViewById(R.id.p323 );
-        p323.setOnClickListener(new View.OnClickListener() {
+        p122 = getActivity().findViewById(R.id.p122);
+        p122.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -98,8 +113,8 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p324 = getActivity().findViewById(R.id.p324 );
-        p324.setOnClickListener(new View.OnClickListener() {
+        p123 = getActivity().findViewById(R.id.p123);
+        p123.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -108,8 +123,8 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p331 = getActivity().findViewById(R.id.p331 );
-        p331.setOnClickListener(new View.OnClickListener() {
+        p124 = getActivity().findViewById(R.id.p124);
+        p124.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -118,8 +133,10 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p332 = getActivity().findViewById(R.id.p332 );
-        p332.setOnClickListener(new View.OnClickListener() {
+
+
+        p131 = getActivity().findViewById(R.id.p131);
+        p131.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -128,8 +145,8 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p333 = getActivity().findViewById(R.id.p333 );
-        p333.setOnClickListener(new View.OnClickListener() {
+        p132 = getActivity().findViewById(R.id.p132);
+        p132.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -138,8 +155,9 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p334 = getActivity().findViewById(R.id.p334 );
-        p334.setOnClickListener(new View.OnClickListener() {
+
+        p133 = getActivity().findViewById(R.id.p133);
+        p133.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -148,8 +166,9 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p341 = getActivity().findViewById(R.id.p341 );
-        p341.setOnClickListener(new View.OnClickListener() {
+
+        p134 = getActivity().findViewById(R.id.p134);
+        p134.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -158,8 +177,8 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p342 = getActivity().findViewById(R.id.p342 );
-        p342.setOnClickListener(new View.OnClickListener() {
+        p141 = getActivity().findViewById(R.id.p141);
+        p141.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -168,8 +187,8 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p351 = getActivity().findViewById(R.id.p351 );
-        p351.setOnClickListener(new View.OnClickListener() {
+        p142 = getActivity().findViewById(R.id.p142);
+        p142.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -178,8 +197,8 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p352 = getActivity().findViewById(R.id.p352 );
-        p352.setOnClickListener(new View.OnClickListener() {
+        p143 = getActivity().findViewById(R.id.p143);
+        p143.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -188,8 +207,10 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p353 = getActivity().findViewById(R.id.p353 );
-        p353.setOnClickListener(new View.OnClickListener() {
+
+
+        p144 = getActivity().findViewById(R.id.p144);
+        p144.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -198,8 +219,20 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p354 = getActivity().findViewById(R.id.p354 );
-        p354.setOnClickListener(new View.OnClickListener() {
+
+
+        p151 = getActivity().findViewById(R.id.p151);
+        p151.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("ResourceType")
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), card.class);
+                startActivity(intent);
+            }
+        });
+
+        p152 = getActivity().findViewById(R.id.p152);
+        p152.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -208,8 +241,9 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p361 = getActivity().findViewById(R.id.p361 );
-        p361.setOnClickListener(new View.OnClickListener() {
+
+        p153 = getActivity().findViewById(R.id.p153);
+        p153.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -218,8 +252,9 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p362 = getActivity().findViewById(R.id.p362 );
-        p362.setOnClickListener(new View.OnClickListener() {
+
+        p154 = getActivity().findViewById(R.id.p154);
+        p154.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -228,8 +263,17 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p363 = getActivity().findViewById(R.id.p363 );
-        p363.setOnClickListener(new View.OnClickListener() {
+        p161 = getActivity().findViewById(R.id.p161);
+        p161.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("ResourceType")
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Activity_0.class);
+                startActivity(intent);
+            }
+        });
+        p162 = getActivity().findViewById(R.id.p162);
+        p162.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -238,8 +282,8 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p364 = getActivity().findViewById(R.id.p364 );
-        p364.setOnClickListener(new View.OnClickListener() {
+        p11 = getActivity().findViewById(R.id.p11);
+        p11.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -248,8 +292,9 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p371 = getActivity().findViewById(R.id.p371 );
-        p371.setOnClickListener(new View.OnClickListener() {
+
+        p12 = getActivity().findViewById(R.id.p12);
+        p12.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -258,8 +303,9 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p372 = getActivity().findViewById(R.id.p372 );
-        p372.setOnClickListener(new View.OnClickListener() {
+
+        p13 = getActivity().findViewById(R.id.p13);
+        p13.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -268,8 +314,8 @@ public class Fragment_3 extends Fragment {
             }
         });
 
-        p373 = getActivity().findViewById(R.id.p373 );
-        p373.setOnClickListener(new View.OnClickListener() {
+        yijianshangwang = getActivity().findViewById(R.id.yijianshangwang);
+        yijianshangwang.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
@@ -277,98 +323,6 @@ public class Fragment_3 extends Fragment {
                 startActivity(intent);
             }
         });
-
-        p374 = getActivity().findViewById(R.id.p374 );
-        p374.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("ResourceType")
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Activity_0.class);
-                startActivity(intent);
-            }
-        });
-
-        p381 = getActivity().findViewById(R.id.p381 );
-        p381.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("ResourceType")
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Activity_0.class);
-                startActivity(intent);
-            }
-        });
-
-        p382 = getActivity().findViewById(R.id.p382 );
-        p382.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("ResourceType")
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Activity_0.class);
-                startActivity(intent);
-            }
-        });
-
-        p391 = getActivity().findViewById(R.id.p391 );
-        p391.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("ResourceType")
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Activity_0.class);
-                startActivity(intent);
-            }
-        });
-
-        p392 = getActivity().findViewById(R.id.p392 );
-        p392.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("ResourceType")
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Activity_0.class);
-                startActivity(intent);
-            }
-        });
-
-        p301 = getActivity().findViewById(R.id.p301 );
-        p301.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("ResourceType")
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Activity_0.class);
-                startActivity(intent);
-            }
-        });
-
-        p302 = getActivity().findViewById(R.id.p302 );
-        p302.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("ResourceType")
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Activity_0.class);
-                startActivity(intent);
-            }
-        });
-
-        p303 = getActivity().findViewById(R.id.p303 );
-        p303.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("ResourceType")
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Activity_0.class);
-                startActivity(intent);
-            }
-        });
-
-        p304 = getActivity().findViewById(R.id.p304 );
-        p304.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("ResourceType")
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Activity_0.class);
-                startActivity(intent);
-            }
-        });
-
 
     }
-
 }

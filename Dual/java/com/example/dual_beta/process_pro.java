@@ -1,4 +1,4 @@
-package com.example.dual;
+package com.example.dual_beta;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
