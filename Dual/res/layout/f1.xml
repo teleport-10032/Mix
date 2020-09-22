@@ -70,7 +70,7 @@
 
             <!--            banner-->
             <ImageView
-                android:src="@drawable/banner"
+                android:background="@drawable/banner"
                 android:layout_width="match_parent"
                 android:layout_height="120dp">
             </ImageView>
@@ -92,6 +92,7 @@
                     android:layout_height="match_parent">
                 </TextView>
                 <ImageView
+                    android:id="@+id/yijianshangwang"
                     android:layout_width="80dp"
                     android:layout_height="match_parent"
                     android:src="@drawable/yijianshangwang"

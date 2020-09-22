@@ -23,7 +23,7 @@ public class Fragment_1 extends Fragment {
 
     ImageView p111,p112,p113,p114,p121,p122,p123,p124,p131,p132,p133,p134,p141,p142,p143,p144;
     ImageView p151,p152,p153,p154,p161,p162;
-    ImageView p11,p12,p13;
+    ImageView p11,p12,p13,yijianshangwang;
 
 
 
@@ -315,5 +315,16 @@ public class Fragment_1 extends Fragment {
                 startActivity(intent);
             }
         });
+
+        yijianshangwang = getActivity().findViewById(R.id.yijianshangwang);
+        yijianshangwang.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("ResourceType")
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Activity_0.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

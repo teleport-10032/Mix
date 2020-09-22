@@ -8,7 +8,8 @@
         android:id="@+id/p51"
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:src="@drawable/p51">
+        android:background="@drawable/p51"
+        >
     </ImageView>
 
 <!--    板块1-->
