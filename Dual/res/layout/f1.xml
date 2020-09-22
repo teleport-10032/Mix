@@ -525,7 +525,7 @@
                 android:id="@+id/p11"
                 android:layout_width="390dp"
                 android:layout_height="130dp"
-                android:src="@drawable/xinxifabu"
+                android:background="@drawable/xinxifabu"
                 >
             </ImageView>
             <!--            灰色条-->
@@ -539,7 +539,7 @@
                 android:id="@+id/p12"
                 android:layout_width="390dp"
                 android:layout_height="130dp"
-                android:src="@drawable/xinxifabu2"
+                android:background="@drawable/xinxifabu2"
                 >
             </ImageView>
             <!--            灰色条-->
@@ -553,7 +553,7 @@
                 android:id="@+id/p13"
                 android:layout_width="390dp"
                 android:layout_height="130dp"
-                android:src="@drawable/xinwen"
+                android:background="@drawable/xinwen"
                 >
             </ImageView>
 

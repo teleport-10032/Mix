@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <!--        选项卡-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <!--        我发起的流程-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="全部流程"
+                android:gravity="center"
+                android:textSize="14dp"
+                >
+            </TextView>
+        </LinearLayout>
+        <!--        灰色竖线-->
+        <LinearLayout
+            android:background="#DDDDDD"
+            android:layout_width="1dp"
+            android:layout_height="match_parent">
+        </LinearLayout>
+        <!--        我办理的流程-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="办理状态"
+                android:gravity="center"
+                android:textSize="14dp"
+                >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--        灰色横线-->
+    <LinearLayout
+        android:background="#E1E1E1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+    </LinearLayout>
+
+
+
+    <!--    流程-->
+    <LinearLayout
+        android:id="@+id/ln1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <!--        1-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
+            <!--            图-->
+            <ImageView
+                android:paddingLeft="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:src="@drawable/process1">
+            </ImageView>
+            <TextView
+                android:paddingTop="5dp"
+                android:text="流程名称："
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+            </TextView>
+            <TextView
+                android:gravity="center"
+                android:text="本科学生请假(>1天):茶理理 本科生..."
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6">
+            </TextView>
+        </LinearLayout>
+        <!--        2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
+            <!--            图-->
+            <ImageView
+                android:paddingLeft="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:src="@drawable/process2">
+            </ImageView>
+            <TextView
+                android:paddingTop="5dp"
+                android:text="流程发起人："
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+            </TextView>
+            <TextView
+                android:gravity="center"
+                android:text="茶理理"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6">
+            </TextView>
+        </LinearLayout>
+        <!--        3-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
+            <!--            图-->
+            <ImageView
+                android:paddingLeft="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:src="@drawable/process3">
+            </ImageView>
+            <TextView
+                android:paddingTop="5dp"
+                android:text="当前办理人"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+            </TextView>
+            <TextView
+                android:gravity="center"
+                android:text="无"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6">
+            </TextView>
+        </LinearLayout>
+        <!--        4-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
+            <ImageView
+                android:paddingLeft="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:src="@drawable/process4">
+            </ImageView>
+            <TextView
+                android:paddingTop="5dp"
+                android:text="发起时间"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+            </TextView>
+            <TextView
+                android:gravity="center"
+                android:text="2020-09-11 12:14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6">
+            </TextView>
+        </LinearLayout>
+
+        <!--        5-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
+            <ImageView
+                android:paddingLeft="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:src="@drawable/process5">
+            </ImageView>
+            <TextView
+                android:paddingTop="5dp"
+                android:text="工单状态："
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+            </TextView>
+            <TextView
+                android:gravity="center"
+                android:text="办理完成"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <!--        灰色横线-->
+    <LinearLayout
+        android:background="#E1E1E1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </LinearLayout>
+
+
+</LinearLayout>

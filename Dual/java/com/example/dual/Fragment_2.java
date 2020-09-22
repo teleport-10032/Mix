@@ -30,7 +30,7 @@ public class Fragment_2 extends Fragment {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Activity_0.class);
+                Intent intent = new Intent(getActivity(), process.class);
                 startActivity(intent);
             }
         });
@@ -41,7 +41,7 @@ public class Fragment_2 extends Fragment {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Activity_0.class);
+                Intent intent = new Intent(getActivity(), process.class);
                 startActivity(intent);
             }
         });
@@ -54,7 +54,7 @@ public class Fragment_2 extends Fragment {
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Activity_0.class);
+                Intent intent = new Intent(getActivity(), process.class);
                 startActivity(intent);
             }
         });

@@ -263,7 +263,6 @@ public class Fragment_1 extends Fragment {
             }
         });
 
-
         p161 = getActivity().findViewById(R.id.p161);
         p161.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
@@ -282,7 +281,6 @@ public class Fragment_1 extends Fragment {
                 startActivity(intent);
             }
         });
-
 
         p11 = getActivity().findViewById(R.id.p11);
         p11.setOnClickListener(new View.OnClickListener() {

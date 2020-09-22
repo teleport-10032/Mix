@@ -17,7 +17,7 @@ import android.widget.TextView;
 public class card extends FragmentActivity {
 
 
-    TextView t;
+    ImageView t;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -23,6 +23,10 @@
         <activity android:name=".card">
         </activity>
 
+        <activity android:name=".process">
+        </activity>
+<!--        <activity android:name=".process_pro">-->
+<!--        </activity>-->
 
     </application>
 

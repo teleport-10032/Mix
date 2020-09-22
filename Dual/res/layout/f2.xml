@@ -44,6 +44,10 @@
             android:layout_width="match_parent"
             android:layout_height="80dp">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+            </LinearLayout>
             <!--                -1-->
             <!--                图-->
             <LinearLayout
@@ -79,7 +83,7 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="40dp">
+                android:layout_height="30dp">
                 <TextView
                     android:textSize="12dp"
                     android:text="待办事项"
@@ -297,7 +301,16 @@
                 </TextView>
             </LinearLayout>
 
-        </LinearLayout>
-    </ScrollView>
 
+
+<!--            空白-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                >
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
 </LinearLayout>

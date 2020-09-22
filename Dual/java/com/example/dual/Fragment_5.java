@@ -19,6 +19,7 @@ public class Fragment_5 extends Fragment {
 
         View fragment = inflater.inflate(R.layout.f5, null);
         return fragment;
+
     }
 
     ImageView p51;
