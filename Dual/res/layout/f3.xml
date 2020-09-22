@@ -160,27 +160,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
                 <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:id="@+id/p311"
                     android:src="@drawable/p311"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:id="@+id/p312"
                     android:src="@drawable/p312"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:id="@+id/p313"
                     android:src="@drawable/p313"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:id="@+id/p314"
                     android:src="@drawable/p314"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
             </LinearLayout>
@@ -190,34 +194,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp">
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:textSize="12dp"
                     android:text="健康上报记录"
                     android:paddingLeft="10dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:textSize="12dp"
                     android:text="查成绩"
                     android:paddingLeft="32dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:textSize="12dp"
                     android:text="考试安排"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:textSize="12dp"
                     android:text="空教室"
                     android:paddingLeft="32dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
@@ -231,27 +239,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
                 <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:id="@+id/p321"
                     android:src="@drawable/p321"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:id="@+id/p322"
                     android:src="@drawable/p322"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:id="@+id/p323"
                     android:src="@drawable/p323"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:id="@+id/p324"
                     android:src="@drawable/p324"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
             </LinearLayout>
@@ -261,34 +273,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp">
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:textSize="12dp"
                     android:text="校历"
                     android:paddingLeft="37dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:textSize="12dp"
                     android:text="办事指南"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:textSize="12dp"
                     android:text="图书馆"
                     android:paddingLeft="32dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:textSize="12dp"
                     android:text="证照采集"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
@@ -301,27 +317,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
                 <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:id="@+id/p331"
                     android:src="@drawable/p331"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:id="@+id/p332"
                     android:src="@drawable/p332"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:id="@+id/p333"
                     android:src="@drawable/p333"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:id="@+id/p334"
                     android:src="@drawable/p334"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
             </LinearLayout>
@@ -331,34 +351,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp">
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:textSize="12dp"
                     android:text="课程表"
                     android:paddingLeft="32dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:textSize="12dp"
                     android:text="在线考试"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:textSize="12dp"
                     android:text="会议签到"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:textSize="12dp"
                     android:text="日常练习"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
@@ -371,15 +395,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
                 <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:id="@+id/p341"
                     android:src="@drawable/p341"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:id="@+id/p342"
                     android:src="@drawable/p342"
-                    android:layout_width="100dp"
+                    android:layout_height="50dp">
+                </ImageView>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="50dp">
+                </ImageView>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:layout_height="50dp">
                 </ImageView>
             </LinearLayout>
@@ -389,18 +425,36 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp">
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="新闻"
                     android:paddingLeft="37dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="就业信息"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="12dp"
+                    android:paddingLeft="37dp"
+                    android:layout_height="20dp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="12dp"
+                    android:paddingLeft="27dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
@@ -452,27 +506,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p351"
                     android:src="@drawable/p351"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p352"
                     android:src="@drawable/p352"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p353"
                     android:src="@drawable/p353"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p354"
                     android:src="@drawable/p354"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
             </LinearLayout>
@@ -482,34 +540,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp">
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="校车时刻表"
                     android:paddingLeft="32dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="信息发布"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="在线投票"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="随手拍修"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
@@ -523,27 +585,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p361"
                     android:src="@drawable/p361"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p362"
                     android:src="@drawable/p362"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p363"
                     android:src="@drawable/p363"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p364"
                     android:src="@drawable/p364"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
             </LinearLayout>
@@ -553,34 +619,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp">
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="贫困生申请"
                     android:paddingLeft="32dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="宿舍信息填报"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="一卡通"
                     android:paddingLeft="32dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="班班通"
                     android:paddingLeft="32dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
@@ -593,27 +663,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p371"
                     android:src="@drawable/p371"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p372"
                     android:src="@drawable/p372"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p373"
                     android:src="@drawable/p373"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p374"
                     android:src="@drawable/p374"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
             </LinearLayout>
@@ -623,34 +697,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp">
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="校园地图"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="二手市场"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="失物招领"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="兼职招聘"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
@@ -663,15 +741,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p381"
                     android:src="@drawable/p381"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p382"
                     android:src="@drawable/p382"
-                    android:layout_width="100dp"
+                    android:layout_height="50dp">
+                </ImageView>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp">
+                </ImageView>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="50dp">
                 </ImageView>
             </LinearLayout>
@@ -681,18 +771,36 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp">
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="新闻"
                     android:paddingLeft="37dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="就业信息"
                     android:paddingLeft="27dp"
-                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="12dp"
+                    android:paddingLeft="37dp"
+                    android:layout_height="20dp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="12dp"
+                    android:paddingLeft="27dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
@@ -741,15 +849,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p391"
                     android:src="@drawable/p391"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p392"
                     android:src="@drawable/p392"
-                    android:layout_width="100dp"
+                    android:layout_height="50dp">
+                </ImageView>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp">
+                </ImageView>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="50dp">
                 </ImageView>
             </LinearLayout>
@@ -759,18 +879,36 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp">
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="照片墙"
                     android:paddingLeft="32dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="摇一摇"
                     android:paddingLeft="32dp"
-                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="12dp"
+                    android:paddingLeft="32dp"
+                    android:layout_height="20dp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="12dp"
+                    android:paddingLeft="32dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
@@ -819,27 +957,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p301"
                     android:src="@drawable/p301"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p302"
                     android:src="@drawable/p302"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p303"
                     android:src="@drawable/p303"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
                 <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:id="@+id/p304"
                     android:src="@drawable/p304"
-                    android:layout_width="100dp"
                     android:layout_height="50dp">
                 </ImageView>
             </LinearLayout>
@@ -849,35 +991,39 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp">
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="学霸排行榜"
                     android:paddingLeft="22dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="学风排行榜"
                     android:paddingLeft="22dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                 android:textSize="12dp"
                 android:text="读者榜"
                 android:paddingLeft="32dp"
-                android:layout_width="100dp"
                 android:layout_height="20dp"
                 >
                 </TextView>
 
                 <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:textSize="12dp"
                     android:text="图书榜"
                     android:paddingLeft="32dp"
-                    android:layout_width="100dp"
                     android:layout_height="20dp"
                     >
                 </TextView>

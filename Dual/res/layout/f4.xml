@@ -43,7 +43,7 @@
         <LinearLayout
             android:layout_gravity="center"
             android:layout_width="360dp"
-            android:layout_height="27dp"
+            android:layout_height="40dp"
             android:background="#ffffff"
             android:orientation="horizontal"
             android:layout_marginTop="7dp"
@@ -54,12 +54,14 @@
                 android:src="@drawable/search">
             </ImageView>
 
-            <TextView
+            <EditText
                 android:paddingTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="  学号/姓名/手机号搜索">
-            </TextView>
+                android:hint="  学号/姓名/手机号搜索"
+                >
+            </EditText>
+
 
         </LinearLayout>
 
