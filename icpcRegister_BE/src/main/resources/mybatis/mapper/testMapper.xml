@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.teleport.springbootmybatis.mapper.testMapper">
+
+<!--    <select id="getEmailSumByEmail" resultType="int">-->
+<!--        select count(email) from sender where email=#{email}-->
+<!--    </select>-->
+
+
+    <select id="isEmailExits" resultType="int">
+        select count(email) from sender where email=#{emial}
+    </select>
+
+    <insert id="add" parameterType="sender">
+        insert into sender(email,verCode,times) values(#{email},#{verCode},#{times})
+    </insert>
+
+    <update id="update" parameterType="sender">
+        update sender set verCode=#{verCode},times=#{times} where email=#{email}
+    </update>
+
+    <update id="setTimesByEmail" parameterType="sender">
+        update sender set times=#{times} where email=#{email}
+    </update>
+
+    <select id="getTimesByEmail" resultType="int">
+        select times from sender where email=#{email}
+    </select>
+
+    <select id="getVerCodeByEmail" resultType="String">
+        select verCode from sender where email=#{emial}
+    </select>
+
+
+</mapper>

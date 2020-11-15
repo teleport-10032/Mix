@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.teleport.springbootmybatis.mapper.registerMapper">
+
+    <insert id="register" parameterType="register">
+        insert into register(theClass,name,studentId,sex,email,joinType,isPay)
+        values (#{theClass},#{name},#{studentId},#{sex},#{email},#{joinType},#{isPay})
+    </insert>
+
+    <select id="isEmailExits" resultType="int">
+        select count(id) from register where email=#{email}
+    </select>
+
+    <select id="getIsPayByEmail" resultType="int">
+        select isPay from register where email=#{email}
+    </select>
+
+    <update id="setIsPayByEmail" parameterType="register">
+        update register set isPay=#{isPay} where email=#{email}
+    </update>
+
+    <select id="getSum" resultType="int">
+        select count(*) from register;
+    </select>
+
+    <select id="getList" resultType="register">
+    select theClass,name,sex,joinType,isPay from register where name like "%"#{key}"%" order by id limit #{start},#{num}
+    </select>
+
+    <update id="setIsPayByName" parameterType="register">
+        update register set isPay=#{value} where name=#{name}
+    </update>
+
+</mapper>
