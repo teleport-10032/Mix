@@ -13,7 +13,7 @@ Vue.prototype.$http = axios
 Vue.prototype.$axios = axios
 Vue.use(ElementUI)
 // 配置请求的跟路径
-axios.defaults.baseURL = 'http://localhost:8888/'
+axios.defaults.baseURL = 'http://47.107.227.192:8888/'
 // axios请求拦截
 axios.interceptors.request.use(config => {
   // 添加Authorization字段

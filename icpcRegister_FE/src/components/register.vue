@@ -111,31 +111,39 @@
         },
         methods: {
             onSubmit() {
-                let result =  this.$axios({
-                    method: 'post',
-                    url: '/submit',
-                    headers: { 'content-type': 'application/x-www-form-urlencoded'},
-                    data: qs.stringify({
-                        theClass:this.form.theClass,
-                        studentId:this.form.studentId,
-                        name:this.form.name,
-                        sex:this.form.sex,
-                        email:this.form.email,
-                        verCode:this.form.verCode,
-                        joinType:this.form.joinType
+
+                //预验证
+                this.$refs.formRef.validate(async valid => {
+                    //未通过则return
+                    if (!valid) return
+                    //通过
+                    let result =  this.$axios({
+                        method: 'post',
+                        url: '/submit',
+                        headers: { 'content-type': 'application/x-www-form-urlencoded'},
+                        data: qs.stringify({
+                            theClass:this.form.theClass,
+                            studentId:this.form.studentId,
+                            name:this.form.name,
+                            sex:this.form.sex,
+                            email:this.form.email,
+                            verCode:this.form.verCode,
+                            joinType:this.form.joinType
+                        })
+                    });
+                    result.then(res=>{
+                        if(res.data.error === "1")
+                            this.$message.error('验证码错误')
+                        else if(res.data.error === "2")
+                            this.$message.warning('邮箱已被注册')
+                        else
+                        {
+                            this.$message.success("恭喜！报名成功")
+                            this.$router.push('/list')
+                        }
                     })
-                });
-                result.then(res=>{
-                    if(res.data.error === "1")
-                        this.$message.error('验证码错误')
-                    else if(res.data.error === "2")
-                        this.$message.warning('邮箱已被注册')
-                    else
-                    {
-                        this.$message.success("恭喜！报名成功")
-                        this.$router.push('/list')
-                    }
                 })
+
             },
             resetForm()
             {
