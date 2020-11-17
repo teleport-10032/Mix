@@ -3,7 +3,7 @@
         <el-card style="width: 500px;position: absolute;
                 top:50%;left:50%;transform: translate(-50%,-50%)">
             <div slot="header" class="clearfix">
-                <span>山东建筑大学第八届ICPC校赛报名</span>
+                <span>第八届ACM-ICPC校赛报名</span>
                 <el-button style="float: right; padding: 3px 0" type="text"
                            @click="resetForm">清空表单</el-button>
             </div>
@@ -22,7 +22,7 @@
                     <el-radio-group v-model="form.sex">
                         <el-radio label="男"></el-radio>
                         <el-radio label="女"></el-radio>
-                        <el-radio label="不确定"></el-radio>
+<!--                        <el-radio label="不确定"></el-radio>-->
                     </el-radio-group>
                     &nbsp;
                     <el-tooltip placement="right-start"  class="item" effect="dark" content="该选项用于区别女队">

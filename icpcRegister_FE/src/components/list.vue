@@ -4,7 +4,7 @@
         <el-card class="box-card" style="width: 800px;position: absolute;
                 top:20px;left:50%;transform: translate(-50%,0%)">
             <div slot="header" class="clearfix">
-                <span>SDJZU第八届ICPC校赛报名表</span>
+                <span>第八届ICPC校赛报名表</span>
                 <el-input placeholder="输入姓名以查找" v-model="queryInfo.key" clearable @clear="getList"
                           @keyup.enter.native="getList" style="width: 300px;position: absolute;right:10px;top:10px">
                     <el-button slot="append" icon="el-icon-search" @click="getList"></el-button>
@@ -30,11 +30,12 @@
 
 
                     <el-table-column label="缴费情况" min-width="15%">
-                        <template slot-scope="scope">
-                            <el-tag v-if="(scope.row.isPay) === 1" type="success">已缴费</el-tag>
-                            <el-tag v-else-if="(scope.row.isPay) === 0" type="warning">未缴费</el-tag>
-                            <el-tag v-else-if="(scope.row.isPay) === 2" type="success">无需缴费</el-tag>
-                        </template>
+<!--                        <template slot-scope="scope">-->
+<!--                            <el-tag v-if="(scope.row.isPay) === 1" type="success">已缴费</el-tag>-->
+<!--                            <el-tag v-else-if="(scope.row.isPay) === 0" type="warning">未缴费</el-tag>-->
+<!--                            <el-tag v-else-if="(scope.row.isPay) === 2" type="success">无需缴费</el-tag>-->
+<!--                        </template>-->
+                        <el-tag type="success">无需缴费</el-tag>
                     </el-table-column>
 
                 </el-table>
@@ -53,9 +54,9 @@
                 </el-pagination>
             </div>
             <el-divider></el-divider>
-            <span style="font-size: 13px">1.友情参赛选手无需缴费，但也不能获得奖品和校队名额。校内友情参赛选手可正常获得创新学分。</span><br>
+            <span style="font-size: 13px">1.友情参赛选手(非大一同学)无法获得奖品和校队名额，但可正常获得创新学分。</span><br>
             <span style="font-size: 13px">2.本次比赛按惯例设置最佳女队奖，由于是个人赛，此奖项颁发给成绩最好的女选手，可以与其它奖项叠加。</span><br>
-            <span style="font-size: 13px">3.参与即得创新学分，一二三等奖分别为10%，20%，30%。</span>
+            <span style="font-size: 13px">3.参与即得PU创新学分，一二三等奖分别为10%，20%，30%，由于经费限制设上限10,20,30人。</span>
 
         </el-card>
         <!--    卡片-->
