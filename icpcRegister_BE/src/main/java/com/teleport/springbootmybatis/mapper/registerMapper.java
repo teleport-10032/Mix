@@ -19,7 +19,7 @@ public interface registerMapper {
     //根据name设置isPay
     int setIsPayByEmail(String email,int isPay);
     //获取总数
-    int getSum();
+    int getSum(String key);
     //查询列表(页数,每页几条),返回List
     List<register> getList(int start, int num,String key);
 

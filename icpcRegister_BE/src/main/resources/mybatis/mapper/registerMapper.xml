@@ -23,7 +23,7 @@
     </update>
 
     <select id="getSum" resultType="int">
-        select count(*) from register;
+        select count(*) from register where name like  "%"#{key}"%";
     </select>
 
     <select id="getList" resultType="register">

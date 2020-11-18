@@ -10,7 +10,7 @@ public interface registerService {
     //通过name改变isPay状态
     boolean changeIsPayByEmail(String email);
     //获取总数
-    int getSum();
+    int getSum(String key);
     //查询列表(页数,每页几条),返回List
     List<register> getList(int page,int pre,String key);
 

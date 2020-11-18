@@ -43,9 +43,10 @@ public class registerServiceImpl implements registerService {
                 return false;
     }
 
+
     @Override
-    public int getSum() {
-        return registerMapperObject.getSum();
+    public int getSum(String key) {
+        return registerMapperObject.getSum(key);
     }
 
     @Override

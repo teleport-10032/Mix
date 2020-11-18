@@ -6,8 +6,8 @@
             <div slot="header" class="clearfix">
                 <span>第八届ICPC校赛报名表</span>
                 <el-input placeholder="输入姓名以查找" v-model="queryInfo.key" clearable @clear="getList"
-                          @keyup.enter.native="getList" style="width: 300px;position: absolute;right:10px;top:10px">
-                    <el-button slot="append" icon="el-icon-search" @click="getList"></el-button>
+                          @keyup.enter.native="getListSearch" style="width: 300px;position: absolute;right:10px;top:10px">
+                    <el-button slot="append" icon="el-icon-search" @click="getListSearch"></el-button>
                 </el-input>
             </div>
             <br>
@@ -87,6 +87,20 @@
         methods: {
             async getList()
             {
+                this.loading = true;
+                const {data:res} =  await this.$http.get('getList',{params:this.queryInfo});
+                this.loading = false;
+                console.log(res);
+                if (res.error !== "0") {
+                    return this.$message.error('获取题目列表失败！')
+                }
+                this.list = res.data;
+                this.total = res.total;
+
+            },
+            async getListSearch()
+            {
+                this.queryInfo.page=1;
                 this.loading = true;
                 const {data:res} =  await this.$http.get('getList',{params:this.queryInfo});
                 this.loading = false;

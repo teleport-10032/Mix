@@ -149,7 +149,7 @@ public class IndexController {
         ObjectMapper mapper = new ObjectMapper();
 
         List<register> list = registerServiceObject.getList(page,pre,key);
-        int total  = registerServiceObject.getSum();
+        int total  = registerServiceObject.getSum(key);
         HashMap s = new HashMap();
         s.put("data",list);
         s.put("total",total);
