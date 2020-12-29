@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.teleport.fwoj_backend.mapper.boardMapper">
+
+    <!--查询列表 title content-->
+    <select id="getBoardList" resultType="board">
+    select id,title,content from board
+    </select>
+
+<!--    插入title content-->
+    <insert id="boardSubmit" parameterType="board">
+        insert board(title,content) values (#{title},#{content})
+    </insert>
+
+</mapper>
