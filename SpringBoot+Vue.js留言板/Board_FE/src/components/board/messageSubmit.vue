@@ -13,7 +13,11 @@
                     placeholder="输入留言的标题" ></el-input>
         </el-form-item>
         <el-form-item label="内容" prop="content">
-          <el-input v-model="form.content" placeholder="输入留言的内容" type="textarea" cols="20" rows="20">
+          <el-input v-model="form.content" placeholder="输入留言的内容" type="textarea" cols="20" rows="15">
+          </el-input>
+        </el-form-item>
+        <el-form-item label="提交者" prop="account">
+          <el-input v-model="form.account" placeholder="输入提交者">
           </el-input>
         </el-form-item>
         <el-form-item>
@@ -33,13 +37,17 @@ export default {
     return{
       form: {
         title:"",
-        content:""
+        content:"",
+        account:""
       },
       formRules: {
         title: [
           { required: true, message: '请输入标题', trigger: 'blur' },
         ],
         content: [
+          { required: true, message: '请输入内容', trigger: 'blur' },
+        ],
+        account: [
           { required: true, message: '请输入内容', trigger: 'blur' },
         ],
       },
@@ -58,7 +66,8 @@ export default {
           headers: { 'content-type': 'application/x-www-form-urlencoded'},
           data: qs.stringify({
             title: this.form.title,
-            content: this.form.content
+            content: this.form.content,
+            account: this.form.account
           })
         });
         result.then(res=>{

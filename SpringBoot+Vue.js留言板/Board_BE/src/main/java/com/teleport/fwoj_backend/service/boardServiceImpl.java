@@ -6,6 +6,10 @@ import com.teleport.fwoj_backend.mapper.boardMapper;
 import com.teleport.fwoj_backend.pojo.board;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
@@ -15,19 +19,25 @@ public class boardServiceImpl implements boardService{
     @Autowired
     private  boardMapper boardMapperObject;
     @Override
-    public String getBoardList() throws JsonProcessingException {
+    public String getBoardList() throws JsonProcessingException, ParseException {
         ObjectMapper mapper = new ObjectMapper();
         List<board> list = boardMapperObject.getBoardList();
+        int len = list.size();
+        for(int i = 0 ; i < len ; i ++)
+        {
+            SimpleDateFormat time=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            list.get(i).setDate(time.format(list.get(i).getInsertDate()));
+        }
         HashMap s = new HashMap();
         s.put("data", list);
         return mapper.writeValueAsString(s);
     }
 
     @Override
-    public String boardSubmit(String title, String content) throws JsonProcessingException {
+    public String boardSubmit(String title, String content,String account) throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
         HashMap s = new HashMap();
-        if(boardMapperObject.boardSubmit(title,content) == 1)
+        if(boardMapperObject.boardSubmit(title,content,account,new Date()) == 1)
             s.put("result","1");
         else
             s.put("result","0");

@@ -13,9 +13,11 @@
         <el-table :data="list" style="width: 100%"  v-loading="loading"
                   :cell-style="{'text-align':'center'}"
                   :header-cell-style="{'text-align':'center'}">
-          <el-table-column label="id" prop="id" min-width="10%"></el-table-column>
-          <el-table-column label="title" prop="title" min-width="15%"></el-table-column>
-          <el-table-column label="content" min-width="10%" prop="content"></el-table-column>
+<!--          <el-table-column label="id" prop="id" min-width="10%"></el-table-column>-->
+          <el-table-column label="标题" prop="title" min-width="15%"></el-table-column>
+          <el-table-column label="内容" min-width="20%" prop="content"></el-table-column>
+          <el-table-column label="发布者" min-width="10%" prop="account"></el-table-column>
+          <el-table-column label="时间" min-width="20%" prop="date"></el-table-column>
         </el-table>
       </div>
       <br>
