@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/p51"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/p51"
+        >
+    </ImageView>
+
+<!--    板块1-->
+    <LinearLayout
+        android:id="@+id/l51"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:paddingLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p521">
+        </ImageView>
+        <TextView
+            android:paddingTop="13dp"
+            android:paddingLeft="5dp"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:text="个人资料">
+        </TextView>
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p522">
+        </ImageView>
+    </LinearLayout>
+
+<!--    灰色条-->
+    <LinearLayout
+        android:background="#f6f6f6"
+        android:layout_width="match_parent"
+        android:layout_height="3dp">
+    </LinearLayout>
+
+
+
+    <!--    板块2-->
+    <LinearLayout
+        android:id="@+id/l52"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:paddingLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p531">
+        </ImageView>
+        <TextView
+            android:paddingTop="13dp"
+            android:paddingLeft="5dp"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:text="修改密码">
+        </TextView>
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p522">
+        </ImageView>
+    </LinearLayout>
+
+    <!--    灰色条-->
+    <LinearLayout
+        android:background="#f6f6f6"
+        android:layout_width="match_parent"
+        android:layout_height="3dp">
+    </LinearLayout>
+
+
+    <!--    板块3-->
+    <LinearLayout
+        android:id="@+id/l53"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:paddingLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p541">
+        </ImageView>
+        <TextView
+            android:paddingTop="13dp"
+            android:paddingLeft="5dp"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:text="软件升级">
+        </TextView>
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p522">
+        </ImageView>
+    </LinearLayout>
+
+    <!--    灰色条-->
+    <LinearLayout
+        android:background="#f6f6f6"
+        android:layout_width="match_parent"
+        android:layout_height="3dp">
+    </LinearLayout>
+
+    <!--    板块4-->
+    <LinearLayout
+        android:id="@+id/l54"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:paddingLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p551">
+        </ImageView>
+        <TextView
+            android:paddingTop="13dp"
+            android:paddingLeft="5dp"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:text="意见反馈">
+        </TextView>
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p522">
+        </ImageView>
+    </LinearLayout>
+
+    <!--    灰色条-->
+    <LinearLayout
+        android:background="#f6f6f6"
+        android:layout_width="match_parent"
+        android:layout_height="3dp">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="#f6f6f6"
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l55"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="退出登录"
+            android:textSize="16dp"
+            android:textColor="#F33532">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#F3F3F3">
+    </LinearLayout>
+
+</LinearLayout>

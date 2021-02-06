@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#EF8400"
+        >
+
+
+        <!--    title-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="#EF8400"
+            >
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/back"
+                    android:paddingTop="20dp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/back">
+                </ImageView>
+            </LinearLayout>
+
+            <!--        我发起的流程-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:gravity="center"
+                    android:paddingLeft="-30dp"
+                    android:text="流程详情"
+                    android:textSize="17dp"
+                    android:textColor="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+<!--    &lt;!&ndash;        选项卡&ndash;&gt;-->
+<!--    <LinearLayout-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp">-->
+
+<!--&lt;!&ndash;        详情&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/l1"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            tools:ignore="Suspicious0dp">-->
+<!--            <TextView-->
+<!--                android:id="@+id/t1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="详情"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="14dp"-->
+<!--                >-->
+<!--            </TextView>-->
+<!--        </LinearLayout>-->
+<!--&lt;!&ndash;        灰色竖线&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:background="#DDDDDD"-->
+<!--            android:layout_width="1dp"-->
+<!--            android:layout_height="match_parent">-->
+<!--        </LinearLayout>-->
+<!--        &lt;!&ndash;        总流程&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/l2"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            tools:ignore="Suspicious0dp">-->
+<!--            <TextView-->
+<!--                android:id="@+id/t2"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="总流程"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="14dp"-->
+<!--                >-->
+<!--            </TextView>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+<!--    &lt;!&ndash;        灰色横线&ndash;&gt;-->
+<!--    <LinearLayout-->
+<!--    android:background="#DDDDDD"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="2dp">-->
+<!--    </LinearLayout>-->
+
+<!--&lt;!&ndash;    fragment显示区域&ndash;&gt;-->
+<!--    <LinearLayout-->
+<!--        android:id="@+id/main_1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+<!--    </LinearLayout>-->
+
+</LinearLayout>

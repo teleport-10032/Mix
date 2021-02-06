@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">智慧建大</string>
+    <string name="bks">
+        本科生请假(&#60; 1天)
+    </string>
+    <string name="yjs">研究生学生请假(&#60; 1天)</string>
+</resources>
