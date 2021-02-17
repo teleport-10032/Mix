@@ -2,8 +2,6 @@ import com.alibaba.fastjson.JSONArray;
 import org.apache.http.client.methods.HttpGet;
 
 import java.io.*;
-import java.text.SimpleDateFormat;
-import java.util.*;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
